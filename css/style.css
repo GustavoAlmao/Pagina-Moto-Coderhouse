@@ -22,163 +22,163 @@ body {
 }
 
 /* fondo */
-@media (min-width: 420px) {
-  /* Navbar */
 
-  .menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+/* Navbar */
 
-  .boton-general {
-    border: 2px solid rgb(71, 70, 70);
-    border-radius: 5px;
-    width: 80px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-  }
-
-  .button {
-    text-decoration: none;
-
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-  }
-
-  .logo {
-    height: 200px;
-    width: 400px;
-  }
-
-  /* Navbar */
-
-  .portadita {
-    background-image: url("/motos.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-    position: relative;
-    text-align: center;
-    justify-content: center;
-  }
-
-  .texto-portadita {
-    font-size: 35px;
-    color: rgb(248, 255, 255);
-  }
-
-  .texto-portadita h1 {
-    font-size: 45px;
-    color: rgb(255, 255, 255);
-  }
-
-  .publicidad-container {
-    display: flex;
-    justify-content: start;
-  }
-
-  .publicidad {
-    height: 50%;
-    width: 100%;
-  }
-
-  .titulitos {
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .titulitos h4 {
-    font-size: 30px;
-    color: aliceblue;
-  }
-
-  .section-motos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .section-motos .motos p {
-    color: white;
-  }
-
-  .section-motos .motos img.motos1 {
-    height: 350px;
-  }
-
-  .footer-container {
-    border: 2px solid rgb(255, 255, 255);
-  }
-
-  .footer-container .titulo-footer {
-    display: flex;
-    justify-content: center;
-    color: white;
-  }
-
-  .footer-container .zona-botones {
-    display: flex;
-    justify-content: center;
-  }
-
-  .footer-container .boton-footer {
-    margin: 20px;
-    color: white;
-  }
-
-  .footer-container .derechos-autor {
-    display: flex;
-    justify-content: center;
-    color: white;
-  }
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.boton-general {
+  border: 2px solid rgb(71, 70, 70);
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.button {
+  text-decoration: none;
+
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.logo {
+  height: 200px;
+  width: 400px;
+}
+
+/* Navbar */
+
+.portadita {
+  background-image: url("/motos.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+
+.texto-portadita {
+  font-size: 35px;
+  color: rgb(248, 255, 255);
+}
+
+.texto-portadita h1 {
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+}
+
+.publicidad-container {
+  display: flex;
+  justify-content: start;
+}
+
+.publicidad {
+  height: 50%;
+  width: 100%;
+}
+
+.titulitos {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.titulitos h4 {
+  font-size: 30px;
+  color: aliceblue;
+}
+
+.section-motos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.section-motos .motos p {
+  color: white;
+}
+
+.section-motos .motos img.motos1 {
+  height: 350px;
+}
+
+.footer-container {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.footer-container .titulo-footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.footer-container .zona-botones {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container .boton-footer {
+  margin: 20px;
+  color: white;
+}
+
+.footer-container .derechos-autor {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
 /* Galeria */
-@media (min-width: 420px) {
-  .container-galeria {
-    display: flex;
-    flex-wrap: wrap;
-  }
 
-  .foto-galeria {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    border-radius: 5px;
-  }
-
-  .foto {
-    width: 400px;
-    height: 300px;
-  }
-
-  /* Marcas */
-
-  .marcas-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .marcas-container .marcas {
-    margin: 30px;
-    padding: 40px;
-  }
-
-  .marcas-container .marc {
-    font-size: 70px;
-    margin: 20px;
-  }
-
-  .marcas-container h5 {
-    color: aliceblue;
-    display: flex;
-    justify-content: center;
-  }
+.container-galeria {
+  display: flex;
+  flex-wrap: wrap;
 }
+
+.foto-galeria {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.foto {
+  width: 350px;
+  height: 250px;
+}
+
+/* Marcas */
+
+.marcas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.marcas-container .marcas {
+  margin: 30px;
+  padding: 40px;
+}
+
+.marcas-container .marc {
+  font-size: 70px;
+  margin: 20px;
+}
+
+.marcas-container h5 {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+
 /* Piezas */
 
 .label1 {
@@ -278,4 +278,36 @@ body {
 .mess {
   width: 400px;
   height: 200px;
+}
+
+/* RESPONSIVE Index y Galeria */
+
+@media (max-width: 768px) {
+  .section-motos {
+    grid-template-columns: 1fr;
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+
+  .portadita {
+    height: auto;
+  }
+
+  .footer-container .zona-botones {
+    border: 2px solid rgb(255, 255, 255);
+    flex-direction: column;
+  }
+  .piecitas {
+    flex-direction: column;
+  }
+
+  .contacto-container {
+    flex-direction: column;
+  }
+  .h6,
+  h6 {
+    flex-direction: column;
+  }
 }
