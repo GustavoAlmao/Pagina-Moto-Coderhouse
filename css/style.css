@@ -302,12 +302,4 @@ body {
   .piecitas {
     flex-direction: column;
   }
-
-  .contacto-container {
-    flex-direction: column;
-  }
-  .h6,
-  h6 {
-    flex-direction: column;
-  }
 }
