@@ -11,20 +11,49 @@
 }
 
 .boton-general {
-  border: 2px solid rgb(71, 70, 70);
-  border-radius: 5px;
-  @include sizes(100px, 30px);
-  
+  // border: 2px solid rgb(71, 70, 70);
+  // border-radius: 5px;
+  @include sizes(160px, 30px);
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+  // cursor: pointer;
+  // transition: background-color 0.3s ease, transform 0.3s ease;
 
-  animation-name: efecto_boton;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-  animation-duration: 2s;
+  //  animation-name: efecto_boton;
+  //  animation-iteration-count: infinite;
+  //  animation-timing-function: ease-in;
+  //  animation-duration: 2s;
 }
+
+.boton-general {
+  background: rgb(124, 124, 116);
+  box-shadow: 0 0 25px rgb(163, 162, 160);
+
+}
+
+.boton-general:hover {
+  box-shadow: 0 0 5px rgb(190, 120, 27),
+              0 0 25px rgb(209, 162, 74),
+              0 0 50px rgb(206, 142, 45),
+              0 0 100px rgb(223, 133, 32);
+}
+
+// .boton-general:hover {
+//   background-color: #5f192e;
+//   transform: scale(1.05);
+// }
 
 .button {
   text-decoration: none;
@@ -40,12 +69,12 @@
 }
 /* Navbar */
 
-@keyframes efecto_boton {
-  from {
-    border: 2px solid rgb(221, 193, 204);
-  }
-  to {
-    border: 3px solid rgb(156, 20, 38);
-  }
-}
+// @keyframes efecto_boton {
+//   from {
+//     border: 2px solid rgb(221, 193, 204);
+//   }
+//   to {
+//     border: 3px solid rgb(156, 20, 38);
+//   }
+// }
 
