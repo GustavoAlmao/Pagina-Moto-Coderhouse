@@ -1,0 +1,38 @@
+
+/* Piezas */
+
+.label1 {
+    color: white;
+  }
+  
+  .filter {
+    width: 100px;
+  }
+  
+  .filtro-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .piecitas {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .piecitas .item-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 20px;
+    padding: 25px;
+  }
+  
+  .piecitas .items {
+    height: 200px;
+    width: 200px;
+  }
+  
+  .piecitas .button-pedir {
+    margin-top: 20px;
+    text-decoration: none;
+    color: aliceblue;
+  }

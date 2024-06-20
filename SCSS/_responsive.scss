@@ -1,0 +1,25 @@
+
+
+/* RESPONSIVE Index y Galeria */
+
+@media (max-width: 768px) {
+    .section-motos {
+      grid-template-columns: 1fr;
+    }
+  
+    .menu {
+      flex-direction: column;
+    }
+  
+    .portadita {
+      height: auto;
+    }
+  
+    .footer-container .zona-botones {
+      border: 2px solid rgb(255, 255, 255);
+      flex-direction: column;
+    }
+    .piecitas {
+      flex-direction: column;
+    }
+  }

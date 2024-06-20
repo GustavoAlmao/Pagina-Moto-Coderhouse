@@ -1,0 +1,61 @@
+$colorprimario: rgb(255, 255, 255);
+@mixin sizes ($widtch, $heigth) {
+  width: $widtch;
+  height: $heigth;
+  }
+
+.portadita {
+    background-image: url("/motos.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .texto-portadita {
+    font-size: 35px;
+    color:$colorprimario;
+  }
+  
+  .texto-portadita h1 {
+    font-size: 45px;
+    color:$colorprimario;
+  }
+  
+  .publicidad-container {
+    display: flex;
+    justify-content: start;
+  }
+  
+  .publicidad {
+    
+    height: 50%;
+    width: 100%;
+  }
+  
+  .titulitos {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .titulitos h4 {
+    font-size: 30px;
+    color: $colorprimario;
+  }
+
+  .section-motos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .section-motos .motos p {
+    color: $colorprimario;
+  }
+  
+  .section-motos .motos img.motos1 {
+    height: 350px;
+  }
+  

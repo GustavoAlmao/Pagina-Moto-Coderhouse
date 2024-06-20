@@ -1,0 +1,23 @@
+@mixin sizes ($widtch, $heigth) {
+  width: $widtch;
+  height: $heigth;
+  }
+/* Galeria */
+
+.container-galeria {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .foto-galeria {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  
+  .foto {
+    @include sizes(350px, 250px);
+   
+   
+  }

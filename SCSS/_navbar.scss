@@ -1,0 +1,51 @@
+/* Navbar */
+@mixin sizes ($widtch, $heigth) {
+  width: $widtch;
+  height: $heigth;
+  }
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.boton-general {
+  border: 2px solid rgb(71, 70, 70);
+  border-radius: 5px;
+  @include sizes(100px, 30px);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+
+  animation-name: efecto_boton;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+
+.button {
+  text-decoration: none;
+
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.logo {
+  
+  height: 200px;
+  width: 400px;
+}
+/* Navbar */
+
+@keyframes efecto_boton {
+  from {
+    border: 2px solid rgb(221, 193, 204);
+  }
+  to {
+    border: 3px solid rgb(156, 20, 38);
+  }
+}
+
