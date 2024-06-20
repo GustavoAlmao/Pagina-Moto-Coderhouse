@@ -1,6 +1,6 @@
 $colorprimario: rgb(255, 255, 255);
-@mixin sizes ($widtch, $heigth) {
-width: $widtch;
+@mixin sizes ($width, $heigth) {
+width: $width;
 height: $heigth;
 }
 /* Contacto */
