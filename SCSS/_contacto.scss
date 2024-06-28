@@ -1,4 +1,4 @@
-$colorprimario: rgb(255, 255, 255);
+$colorprimario: rgb(240, 212, 154);
 
 @mixin sizes($width, $height) {
   width: $width;
@@ -30,6 +30,7 @@ $colorprimario: rgb(255, 255, 255);
   h6 {
     font-size: 20px;
     margin-left: 20px;
+    color: rgb(196, 168, 108);
   }
 
   .container-contacto {

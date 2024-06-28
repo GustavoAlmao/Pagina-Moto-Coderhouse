@@ -221,13 +221,13 @@ h8 {
 
 /* Contacto */
 .contacto-container {
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid rgb(240, 212, 154);
   display: flex;
 }
 .contacto-container .imagen-container {
   width: 50%;
   height: 100vh;
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid rgb(240, 212, 154);
   background-image: url(/multimedia/fondo.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -236,17 +236,18 @@ h8 {
   align-items: center;
 }
 .contacto-container .imagen-container .titulo-imagen {
-  color: rgb(255, 255, 255);
+  color: rgb(240, 212, 154);
   font-size: 70px;
 }
 .contacto-container h6 {
   font-size: 20px;
   margin-left: 20px;
+  color: rgb(196, 168, 108);
 }
 .contacto-container .container-contacto {
   width: 50%;
   height: 100vh;
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid rgb(240, 212, 154);
   display: flex;
   justify-content: center;
   align-items: center;
