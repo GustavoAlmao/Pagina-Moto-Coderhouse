@@ -1,18 +1,18 @@
 $colorprimario: rgb(255, 255, 255);
-@mixin sizes ($width, $height) {
-width: $width;
-height: $height;
+
+@mixin sizes($width, $height) {
+  width: $width;
+  height: $height;
 }
+
 /* Contacto */
 
 .contacto-container {
-    border: 2px solid $colorprimario;
-    display: flex;
-  }
-  
-  .contacto-container .imagen-container {
+  border: 2px solid $colorprimario;
+  display: flex;
+
+  .imagen-container {
     @include sizes(50%, 100vh);
-   
     border: 2px solid $colorprimario;
     background-image: url(/multimedia/fondo.png);
     background-size: cover;
@@ -20,47 +20,38 @@ height: $height;
     background-position: center;
     display: flex;
     align-items: center;
+
+    .titulo-imagen {
+      color: $colorprimario;
+      font-size: 70px;
+    }
   }
-  
-  .contacto-container .titulo-imagen {
-    color: $colorprimario;
-    font-size: 100px;
-  }
-  
-  .contacto-container h6 {
+
+  h6 {
     font-size: 20px;
     margin-left: 20px;
   }
-  
-  .contacto-container .container-contacto {
-    @include sizes(50%, 100vh);
-    
-    border: 2px solid $colorprimario;
-  }
-  
+
   .container-contacto {
+    @include sizes(50%, 100vh);
+    border: 2px solid $colorprimario;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    .cuadro-info {
+      @include sizes(90%, 75%);
+      text-align: center;
+
+      .nombre-apellido,
+      .correo-asunto {
+        margin: 20px;
+        font-size: 20px;
+      }
+
+      .mess {
+        @include sizes(300px, 200px);
+      }
+    }
   }
-  
-  .cuadro-info {
-    border: 1px solid $colorprimario;
-    @include sizes(90%, 75%);
-    text-align: center;
-  }
-  
-  .nombre-apellido {
-    margin: 20px;
-    font-size: 20px;
-  }
-  
-  .correo-asunto {
-    margin: 20px;
-    font-size: 20px;
-  }
-  
-  .mess {
-    @include sizes(400px, 200px);
-  
-  }
+}

@@ -1,61 +1,127 @@
 $colorprimario: rgb(255, 255, 255);
-@mixin sizes ($widtch, $heigth) {
-  width: $widtch;
-  height: $heigth;
+
+@mixin sizes($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+$colors: (
+  boton-1: #cca145,
+  boton-2: #645521,
+  boton-3: #e7bf3c,
+  boton-4: #a8520b,
+  boton-5: #e69a0f,
+);
+
+@function color($key) {
+  @return map-get($colors, $key);
+}
+
+/* Botones */
+
+.boton {
+  width: 200px;
+  margin: 5px;
+  height: 40px;
+
+  &.boton-1 {
+    background-color: color(boton-1);
   }
 
-.portadita {
-    background-image: url("/motos.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-    position: relative;
-    text-align: center;
-    justify-content: center;
+  &.boton-2 {
+    background-color: color(boton-2);
   }
-  
+
+  &.boton-3 {
+    background-color: color(boton-3);
+  }
+
+  &.boton-4 {
+    background-color: color(boton-4);
+  }
+
+  &.boton-5 {
+    background-color: color(boton-5);
+  }
+}
+
+/* Portada */
+
+.portadita {
+  background-image: url("../multimedia/motos.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+
   .texto-portadita {
     font-size: 35px;
-    color:$colorprimario;
+    color: $colorprimario;
+
+    h1 {
+      font-size: 45px;
+      color: $colorprimario;
+    }
   }
-  
-  .texto-portadita h1 {
-    font-size: 45px;
-    color:$colorprimario;
-  }
-  
-  .publicidad-container {
-    display: flex;
-    justify-content: start;
-  }
-  
+}
+
+/* Publicidad */
+
+.publicidad-container {
+  display: flex;
+  justify-content: start;
+
   .publicidad {
-    
     height: 50%;
     width: 100%;
   }
-  
-  .titulitos {
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .titulitos h4 {
+}
+
+/* Títulos */
+
+.titulitos {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+
+  h4 {
     font-size: 30px;
     color: $colorprimario;
   }
+}
 
-  .section-motos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+/* Sección de Motos */
+
+.section-motos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  .motos {
+    p {
+      color: $colorprimario;
+    }
+
+    img.motos1 {
+      height: 350px;
+    }
   }
-  
-  .section-motos .motos p {
-    color: $colorprimario;
-  }
-  
-  .section-motos .motos img.motos1 {
-    height: 350px;
-  }
-  
+}
+
+/* Encuesta */
+
+h8 {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.cuadro-encuesta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
